@@ -14,7 +14,7 @@
 使用模組：  
 | 名稱 | pyquery | smtplib | MIMEText | time|
 | ---- | ------- | --------| -------- | --- |
-用途 | 爬蟲    | 寄email | 處理email用 | 計時|
+|**用途**|**爬蟲**|**寄email**|**處理email用**|**計時**|
 
 ※需安裝PyQuery模組  
 安裝方式：在 Python 的命令提示字元下輸入指令pip install pyquery  
