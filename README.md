@@ -12,7 +12,8 @@
 尋找範例程式→改變爬蟲目標網站→發現UNICODE顯示為亂碼→新增編碼、解碼區段→debug  
 
 使用模組：  
-名稱 | pyquery | smtplib | MIMEText | time|
+| 名稱 | pyquery | smtplib | MIMEText | time|
+| ---- | ------- | --------| -------- | --- |
 用途 | 爬蟲    | 寄email | 處理email用 | 計時|
 
 ※需安裝PyQuery模組  
