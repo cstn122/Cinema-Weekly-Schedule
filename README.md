@@ -1,40 +1,43 @@
 # Cinema-Weekly-Schedule
-程式設計與實習(二) 期末專題報告
+## 程式設計與實習(二) 期末專題報告
 1072B0006 謝可安
 
-一、程式目的摘要
-	電影院通常會以一週一次的頻率，在官網更新當週的上映時刻表。只要利用time模組，就可以讓程式每七天爬取一次時刻表，並且傳送email提醒自己。（註：程式中將時間間隔設定為5秒以方便觀察。）
+### 一、程式目的摘要
+電影院通常會以一週一次的頻率，在官網更新當週的上映時刻表。只要利用time模組，就可以讓程式每七天爬取一次時刻表，並且傳送email提醒自己。（註：程式中將時間間隔設定為5秒以方便觀察。）
 
-二、專題方法
-尋找範例程式→改變爬蟲目標網站→發現UNICODE顯示為亂碼→新增編碼、解碼區段→debug
+### 二、流程圖
+![流程圖](https://i.imgur.com/3HUMa8L.png)  
 
-使用模組：
-名稱	pyquery	smtplib	MIMEText	time
-用途	爬蟲	寄email	處理email用	計時
+### 三、專題方法
+尋找範例程式→改變爬蟲目標網站→發現UNICODE顯示為亂碼→新增編碼、解碼區段→debug  
 
-※需安裝PyQuery模組
-安裝方式：在 Python 的命令提示字元下輸入指令pip install pyquery
- 
+使用模組：  
+名稱 | pyquery | smtplib | MIMEText | time|
+用途 | 爬蟲    | 寄email | 處理email用 | 計時|
+
+※需安裝PyQuery模組  
+安裝方式：在 Python 的命令提示字元下輸入指令pip install pyquery  
+![pyq](https://i.imgur.com/3oB4rD9.png)
 (顯示Requirement already satisfied表示已安裝過)
 
 ※需在Google帳戶設定「透過其他電子郵件平台查看 Gmail」
-（詳見https://support.google.com/mail/answer/7126229?hl=zh-Hant）
- 
-
+（詳見https://support.google.com/mail/answer/7126229?hl=zh-Hant）  
+![gmail](https://i.imgur.com/VpBfng9.png)  
+![smtp](https://i.imgur.com/9olCMh3.png)
 ※需在程式檔中輸入自己的email帳號及密碼
 gmail_user = '信箱帳號'
 gmail_pswd = '信箱密碼'
- 
 
-三、結果
+### 三、結果
+![result](https://i.imgur.com/sdGcgB6.png)  
 執行程式後編譯器會輸出電影院本週最新的上映資訊及訊息「New movielist sent!」，並作為內文寄信給指定信箱。隔5秒後再執行一次，若無更新資訊則編譯器輸出「No difference updated!」（不會寄信），若有更新資訊則同上在編譯器輸出結果及寄信。
 
-四、貢獻
+### 四、貢獻
 改寫第11到16行，具體貢獻如下：
 1. 更換爬蟲網址
 2. 將ISO-8859-1解碼成UTF-8以正常顯示中文字(UNICODE)。
 
-五、參考資料
+### 五、參考資料
 -----------------原型--------------------
 
 PYTHON期末專題 電影訂票
