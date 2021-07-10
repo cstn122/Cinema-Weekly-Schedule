@@ -19,10 +19,8 @@
 ![pyq](https://i.imgur.com/3oB4rD9.png)
 (顯示Requirement already satisfied表示已安裝過)
 
-※需在Google帳戶設定「透過其他電子郵件平台查看 Gmail」
-（詳見https://support.google.com/mail/answer/7126229?hl=zh-Hant）  
-![gmail](https://i.imgur.com/VpBfng9.png)  
-![smtp](https://i.imgur.com/9olCMh3.png)
+※需在Google帳戶設定「透過其他電子郵件平台查看 Gmail」 
+![gmail](https://imgur.com/a/23wZ7x9g)  
 ※需在程式檔中輸入自己的email帳號及密碼
 gmail_user = '信箱帳號'
 gmail_pswd = '信箱密碼'
@@ -37,34 +35,12 @@ gmail_pswd = '信箱密碼'
 2. 將ISO-8859-1解碼成UTF-8以正常顯示中文字(UNICODE)。
 
 ### 五、參考資料
------------------原型--------------------
-
-PYTHON期末專題 電影訂票
-https://www.youtube.com/watch?v=p8UeIDupR5Y&list=WL&index=2&t=0s
-
------------------爬蟲用法參考------------
-
-pyquery 網路爬蟲
-https://flysatellite.pixnet.net/blog/post/188930692-pyquery
-
-爬蟲入門之爬取靜態網頁表格資料
-https://www.itread01.com/content/1542369667.html
-
-06.爬蟲工具pyquery用法
-https://ithelp.ithome.com.tw/articles/10203551
-
------------------SMTPLIB函式庫用法參考------------
-
-python smtplib 練習--寄電子郵件
-https://self.jxtsai.info/2016/09/python_22.html
-
------------------亂碼問題解決參考------------
-
-常見亂碼問題分析和總結
-https://www.itread01.com/content/1544558406.html
-
-python中把ISO-8859-1编码转化为UTF-8
-https://www.jianshu.com/p/e487e89c2a4e
-
-Python字串的encode與decode研究心得亂碼問題解決方法
-https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/375085/
+1. James Lai（107年11月20日）。PYTHON期末專題 電影訂票。 https://www.youtube.com/watch?v=p8UeIDupR5Y&list=WL&index=2&t=0s
+2. flysatellite（103年9月4日）。pyquery 網路爬蟲。 https://flysatellite.pixnet.net/blog/post/188930692-pyquery
+3. IT閱讀（107年11月16日）。爬蟲入門之爬取靜態網頁表格資料。 https://www.itread01.com/content/1542369667.html
+4. kuankuan（106年10月20日）。 量化投資與機器學習研究系列 06.爬蟲工具pyquery用法。 https://ithelp.ithome.com.tw/articles/10203551
+5. JXTSAI（105年9月22日）。python smtplib 練習--寄電子郵件。 https://self.jxtsai.info/2016/09/python_22.html
+6. IT閱讀（107年12月12日）。常見亂碼問題分析和總結。 https://www.itread01.com/content/1544558406.html
+7. Haimei（107年5月30日）。python中把ISO-8859-1编码转化为UTF-8。 https://www.jianshu.com/p/e487e89c2a4e
+8. 程式前沿（107年7月5日）。Python字串的encode與decode研究心得亂碼問題解決方法。 https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/375085/
+9. Gmail說明。透過其他電子郵件平台查看 Gmail。 https://support.google.com/mail/answer/7126229?hl=zh-Hant
