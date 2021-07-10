@@ -20,7 +20,7 @@
 (顯示Requirement already satisfied表示已安裝過)
 
 ※需在Google帳戶設定「透過其他電子郵件平台查看 Gmail」 
-![gmail](https://imgur.com/a/23wZ7x9g)  
+![gmail](https://imgur.com/y6JBaMo)
 ※需在程式檔中輸入自己的email帳號及密碼
 gmail_user = '信箱帳號'
 gmail_pswd = '信箱密碼'
